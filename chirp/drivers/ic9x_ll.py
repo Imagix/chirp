@@ -349,7 +349,7 @@ class IC92MemoryFrame(IC92Frame):
             LOG.debug("Memory is %i (call %s)" %
                       (mem.number, self.get_iscall()))
 
-        _mem = bitwise.parse(MEMORY_FRAME_FORMAT, self).mem
+        _mem = bitwise.parse(MEMORY_FRAME_FORMAT, self).mem[0]
 
         _mem.number = mem.number
 
@@ -381,7 +381,7 @@ class IC92MemoryFrame(IC92Frame):
 
     def get_memory(self):
         """Return a Memory object based on the contents of the frame"""
-        _mem = bitwise.parse(MEMORY_FRAME_FORMAT, self.get_payload()).mem
+        _mem = bitwise.parse(MEMORY_FRAME_FORMAT, self.get_payload()).mem[0]
 
         if MODES[_mem.mode] == "DV":
             mem = IC9xDVMemory()
