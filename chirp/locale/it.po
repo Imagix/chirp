@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the CHIRP package.
 # Dan Smith <dan@theine>, 2011.
 # Daniele Forsi <iu5hkx@gmail.com>, 2024
-# Giovanni Scafora IK5TWZ <scafora.giovanni@gmail.com>, 2024, 2025
+# Giovanni Scafora IK5TWZ <scafora.giovanni@gmail.com>, 2024, 2025, 2026
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: CHIRP\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-30 11:54-0500\n"
-"PO-Revision-Date: 2025-10-25 16:50+0200\n"
+"POT-Creation-Date: 2026-01-29 14:51-0800\n"
+"PO-Revision-Date: 2026-01-24 17:43+0100\n"
 "Last-Translator: Giovanni Scafora IK5TWZ <scafora.giovanni@gmail.com>\n"
 "Language-Team: CHIRP Italian Translation\n"
 "Language: it\n"
@@ -603,6 +603,34 @@ msgstr ""
 "    \"CLONE WAIT\").\n"
 "5. Fai clic su OK per inviare l'immagine alla radio.\n"
 
+#: ../drivers/vx1.py:399
+msgid ""
+"1. Turn radio off.\n"
+"2. Connect cable to MIC/SP jack.\n"
+"3. Press and hold [FW] while turning radio on to put into CLONE mode.\n"
+"4. Press OK on chirp prompt.\n"
+"5. <b>After clicking OK</b>, press the [DWN] button on radio to send image. The radio will say CLN OUT while downloading.\n"
+msgstr ""
+"1. Spegni la radio.\n"
+"2. Collega il cavo alla presa MIC/SP.\n"
+"3. Tieni prenuto [FW] mentre accendi la radio per metterla in modalità CLONE.\n"
+"4. Premi OK nella finestra di CHIRP.\n"
+"5. <b>Dopo aver fatto clic su OK</b>, premi il pulsante [DWN] sulla radio per inviare l'immagine. La radio mostrerà CLN OUT durante il download.\n"
+
+#: ../drivers/vx1.py:407
+msgid ""
+"1. Turn radio off.\n"
+"2. Connect cable to MIC/SP jack.\n"
+"3. Press and hold [FW] while turning radio on to put into CLONE mode.\n"
+"4. Press [UP] button on radio. The radio will say CLN IN.\n"
+"5. <b>After radio says CLN IN</b>, press OK on chirp prompt to upload.\n"
+msgstr ""
+"1. Spegni la radio.\n"
+"2. Collega il cavo alla presa MIC/SP.\n"
+"3. Tieni premuto [FW] mentre accendi la radio per metterla in modalità CLONE.\n"
+"4. Premi il pulsante [UP] sulla radio. La radio mostrerà CLN IN.\n"
+"5. <b>Dopo che la radio visualizza CLN IN</b>, premi OK nella finestra di chirp per caricare.\n"
+
 #: ../drivers/ft50.py:195
 msgid ""
 "1. Turn radio off.\n"
@@ -633,7 +661,7 @@ msgstr ""
 "4. Premi l'interruttore [MONI] (sul display apparirà la scritta \"WAIT\").\n"
 "5. Premi OK.\n"
 
-#: ../drivers/vx3.py:373 ../drivers/vx6.py:370
+#: ../drivers/vx6.py:370 ../drivers/vx3.py:373
 msgid ""
 "1. Turn radio off.\n"
 "2. Connect cable to MIC/SP jack.\n"
@@ -647,7 +675,7 @@ msgstr ""
 "     (sul display apparirà la scritta \"CLONE\").\n"
 "4. <b>Dopo aver fatto clic su OK</b>, premi il tasto [BAND] per inviare l'immagine.\n"
 
-#: ../drivers/vx3.py:380 ../drivers/vx6.py:377
+#: ../drivers/vx6.py:377 ../drivers/vx3.py:380
 msgid ""
 "1. Turn radio off.\n"
 "2. Connect cable to MIC/SP jack.\n"
@@ -829,7 +857,7 @@ msgstr ""
 "5. Assicurati che la radio sia sintonizzata su un canale privo di attività.\n"
 "6. Fai clic su OK per caricare l'immagine sul dispositivo.\n"
 
-#: ../drivers/tg_uv2p.py:232 ../drivers/wouxun.py:213 ../drivers/uvb5.py:288
+#: ../drivers/uvb5.py:288 ../drivers/wouxun.py:213 ../drivers/tg_uv2p.py:232
 msgid ""
 "1. Turn radio off.\n"
 "2. Connect cable to mic/spkr connector.\n"
@@ -845,7 +873,7 @@ msgstr ""
 "5. Assicurati che la radio sia sintonizzata su un canale privo di attività.\n"
 "6. Fai clic su OK per scaricare l'immagine dal dispositivo.\n"
 
-#: ../drivers/tg_uv2p.py:240 ../drivers/wouxun.py:221 ../drivers/uvb5.py:296
+#: ../drivers/uvb5.py:296 ../drivers/wouxun.py:221 ../drivers/tg_uv2p.py:240
 msgid ""
 "1. Turn radio off.\n"
 "2. Connect cable to mic/spkr connector.\n"
@@ -861,7 +889,7 @@ msgstr ""
 "5. Assicurati che la radio sia sintonizzata su un canale privo di attività.\n"
 "6. Fai clic su OK per caricare l'immagine sul dispositivo.\n"
 
-#: ../drivers/yaesu_clone.py:234
+#: ../drivers/yaesu_clone.py:237
 msgid ""
 "1. Turn radio off.\n"
 "2. Connect data cable.\n"
@@ -873,7 +901,7 @@ msgstr ""
 "3. Prepara la radio per il clone.\n"
 "4. <b>Dopo aver fatto clic su OK</b>, premi il tasto per inviare l'immagine.\n"
 
-#: ../drivers/yaesu_clone.py:239
+#: ../drivers/yaesu_clone.py:242
 msgid ""
 "1. Turn radio off.\n"
 "2. Connect data cable.\n"
@@ -1029,6 +1057,10 @@ msgstr "Informazioni su CHIRP"
 msgid "Agree"
 msgstr "Accetta"
 
+#: ../chirp_common.py:1855
+msgid "Aircraft frequencies must be aligned to 25kHz, 8.33kHz, be or a valid channel"
+msgstr "Le frequenze aeronautiche devono essere allineate a 25 kHz, 8,33 kHz oppure corrispondere a un canale valido"
+
 #: ../wxui/query_sources.py:451
 msgid "All"
 msgstr "Tutto"
@@ -1049,7 +1081,7 @@ msgstr "Inizia sempre con un elenco recente"
 msgid "Amateur"
 msgstr "Radioamatore"
 
-#: ../wxui/common.py:633 ../wxui/bugreport.py:340 ../wxui/bugreport.py:449
+#: ../wxui/bugreport.py:340 ../wxui/bugreport.py:449 ../wxui/common.py:633
 msgid "An error has occurred"
 msgstr "Si è verificato un errore"
 
@@ -1204,13 +1236,13 @@ msgstr "Clonazione completata, controllo dei byte spuri"
 msgid "Cloning"
 msgstr "Clonazione"
 
-#: ../drivers/ft450d.py:507 ../drivers/bj9900.py:133 ../drivers/ft817.py:341
-#: ../drivers/ft4.py:317
+#: ../drivers/bj9900.py:133 ../drivers/ft450d.py:507 ../drivers/ft4.py:317
+#: ../drivers/ft817.py:341
 msgid "Cloning from radio"
 msgstr "Clonazione dalla radio"
 
-#: ../drivers/ft450d.py:536 ../drivers/bj9900.py:165 ../drivers/ft817.py:379
-#: ../drivers/ft4.py:318
+#: ../drivers/bj9900.py:165 ../drivers/ft450d.py:536 ../drivers/ft4.py:318
+#: ../drivers/ft817.py:379
 msgid "Cloning to radio"
 msgstr "Clonazione verso la radio"
 
@@ -1348,7 +1380,7 @@ msgstr "Modalità sviluppatore"
 msgid "Developer state is now %s. CHIRP must be restarted to take effect"
 msgstr "La modalità sviluppatore ora è %s. Per rendere effettiva questa modifica, CHIRP deve essere riavviato"
 
-#: ../wxui/developer.py:97 ../wxui/memedit.py:2277
+#: ../wxui/memedit.py:2277 ../wxui/developer.py:97
 msgid "Diff Raw Memories"
 msgstr "Diff memorie raw"
 
@@ -1593,8 +1625,8 @@ msgstr "Impossibile esportare alcune memorie"
 msgid "Failed to load radio browser"
 msgstr "Impossibile caricare il browser della radio"
 
-#: ../sources/mapy73pl.py:61 ../sources/przemienniki_net.py:59
-#: ../sources/przemienniki_eu.py:57
+#: ../sources/przemienniki_eu.py:57 ../sources/przemienniki_net.py:59
+#: ../sources/mapy73pl.py:61
 msgid "Failed to parse result"
 msgstr "Impossibile elaborare il risultato"
 
@@ -1721,11 +1753,11 @@ msgstr ""
 "5 - Scollega il cavo dati dell'interfaccia! In caso contrario, non ci sarà\n"
 "    l'audio del lato destro!\n"
 
-#: ../drivers/bf_t1.py:482 ../drivers/gmrsv2.py:363
-#: ../drivers/baofeng_wp970i.py:327 ../drivers/gmrsuv1.py:391
-#: ../drivers/uv6r.py:339 ../drivers/uv5x3.py:417
-#: ../drivers/tdxone_tdq8a.py:441 ../drivers/baofeng_uv17Pro.py:496
-#: ../drivers/mursv1.py:341 ../drivers/btech.py:684
+#: ../drivers/mursv1.py:341 ../drivers/baofeng_wp970i.py:327
+#: ../drivers/btech.py:664 ../drivers/gmrsuv1.py:391
+#: ../drivers/tdxone_tdq8a.py:441 ../drivers/uv6r.py:339
+#: ../drivers/uv5x3.py:417 ../drivers/gmrsv2.py:363
+#: ../drivers/baofeng_uv17Pro.py:506 ../drivers/bf_t1.py:482
 msgid ""
 "Follow these instructions to download your info:\n"
 "1 - Turn off your radio\n"
@@ -1829,7 +1861,7 @@ msgstr ""
 "    l'audio del lato destro!\n"
 "6 - Accendi la radio per uscire dalla modalità clone.\n"
 
-#: ../drivers/bf_t1.py:488 ../drivers/btech.py:690
+#: ../drivers/btech.py:670 ../drivers/bf_t1.py:488
 msgid ""
 "Follow these instructions to upload your info:\n"
 "1 - Turn off your radio\n"
@@ -1899,11 +1931,11 @@ msgstr ""
 "3 - Accendi la radio\n"
 "4 - Effettua il download dei dati dalla radio\n"
 
-#: ../drivers/gmrsv2.py:369 ../drivers/baofeng_wp970i.py:333
-#: ../drivers/vgc.py:589 ../drivers/gmrsuv1.py:397 ../drivers/uv6r.py:345
-#: ../drivers/lt725uv.py:487 ../drivers/uv5x3.py:423
-#: ../drivers/tdxone_tdq8a.py:447 ../drivers/baofeng_uv17Pro.py:502
-#: ../drivers/mursv1.py:347
+#: ../drivers/vgc.py:589 ../drivers/mursv1.py:347
+#: ../drivers/baofeng_wp970i.py:333 ../drivers/gmrsuv1.py:397
+#: ../drivers/lt725uv.py:487 ../drivers/tdxone_tdq8a.py:447
+#: ../drivers/uv6r.py:345 ../drivers/uv5x3.py:423 ../drivers/gmrsv2.py:369
+#: ../drivers/baofeng_uv17Pro.py:512
 msgid ""
 "Follow this instructions to upload your info:\n"
 "1 - Turn off your radio\n"
@@ -1940,29 +1972,29 @@ msgstr "Ho trovato un valore vuoto nella lista %(name)s: %(value)r"
 msgid "Frequency"
 msgstr "Frequenza"
 
-#: ../import_logic.py:76
+#: ../import_logic.py:77
 #, python-format
-msgid "Frequency %s is out of supported range"
-msgstr "La frequenza %s non rientra nel range supportato"
+msgid "Frequency %s is out of supported ranges %s"
+msgstr "La frequenza %s è al di fuori degli intervalli supportati %s"
 
 #: ../wxui/memedit.py:151
 msgid "Frequency granularity in kHz"
 msgstr "Granularità della frequenza in kHz"
 
-#: ../drivers/ga510.py:1072 ../drivers/retevis_ha1g.py:1381
-#: ../drivers/uv5r.py:1940 ../drivers/mml_jc8810.py:1379
-#: ../drivers/baofeng_uv17Pro.py:1266 ../drivers/tdh8.py:2479
+#: ../drivers/ga510.py:1072 ../drivers/mml_jc8810.py:1379
+#: ../drivers/tdh8.py:2479 ../drivers/retevis_ha1g.py:1474
+#: ../drivers/uv5r.py:1949 ../drivers/baofeng_uv17Pro.py:1283
 msgid "Frequency in this range must not be AM mode"
 msgstr "La frequenza in questo intervallo non deve essere in modalità AM"
 
-#: ../drivers/retevis_ha1g.py:1371
+#: ../drivers/retevis_ha1g.py:1465
 msgid "Frequency in this range not supported by firmware"
-msgstr ""
+msgstr "La frequenza in questo intervallo non è supportata dal firmware"
 
-#: ../drivers/ga510.py:1065 ../drivers/retevis_ha1g.py:1377
-#: ../drivers/uv5r.py:1936 ../drivers/radtel_rt900.py:1360
-#: ../drivers/mml_jc8810.py:1376 ../drivers/baofeng_uv17Pro.py:1262
-#: ../drivers/tdh8.py:2476
+#: ../drivers/ga510.py:1065 ../drivers/radtel_rt900.py:1360
+#: ../drivers/mml_jc8810.py:1376 ../drivers/tdh8.py:2476
+#: ../drivers/retevis_ha1g.py:1470 ../drivers/uv5r.py:1945
+#: ../drivers/baofeng_uv17Pro.py:1280
 msgid "Frequency in this range requires AM mode"
 msgstr "La frequenza in questo intervallo richiede la modalità AM"
 
@@ -2062,7 +2094,7 @@ msgstr "Informazioni"
 msgid "Insert Row Above"
 msgstr "Inserisci riga sopra"
 
-#: ../wxui/__init__.py:59
+#: ../wxui/__init__.py:60
 msgid "Install desktop icon?"
 msgstr "Vuoi installare un'icona sul desktop?"
 
@@ -2119,7 +2151,7 @@ msgstr "Numero:"
 msgid "LIVE"
 msgstr "In diretta live"
 
-#: ../wxui/main.py:853 ../wxui/main.py:1632 ../drivers/radtel_rt490.py:1026
+#: ../drivers/radtel_rt490.py:1026 ../wxui/main.py:853 ../wxui/main.py:1632
 msgid "Language"
 msgstr "Lingua"
 
@@ -2217,7 +2249,7 @@ msgstr "modifica manuale della memoria %i"
 msgid "Memories"
 msgstr "Memorie"
 
-#: ../drivers/uvk5.py:2092
+#: ../drivers/uvk5.py:2087
 msgid "Memories are read-only due to unsupported firmware version"
 msgstr "Le memorie sono di sola lettura a causa della versione del firmware non supportata"
 
@@ -2325,8 +2357,8 @@ msgstr "Nessun modulo trovato nel sito %i"
 msgid "No more space available; some memories were not applied"
 msgstr "Non c'è più spazio disponibile; alcune memorie non sono state inserite"
 
-#: ../sources/mapy73pl.py:57 ../sources/przemienniki_net.py:55
-#: ../sources/przemienniki_eu.py:53
+#: ../sources/przemienniki_eu.py:53 ../sources/przemienniki_net.py:55
+#: ../sources/mapy73pl.py:57
 msgid "No results"
 msgstr "Nessun risultato"
 
@@ -2471,8 +2503,8 @@ msgstr ""
 "In questa versione, è supportato solo un sottoinsieme\n"
 "delle oltre 130 impostazioni radio disponibili.\n"
 
-#: ../sources/mapy73pl.py:52 ../sources/przemienniki_net.py:50
-#: ../sources/przemienniki_eu.py:48
+#: ../sources/przemienniki_eu.py:48 ../sources/przemienniki_net.py:50
+#: ../sources/mapy73pl.py:52
 msgid "Parsing"
 msgstr "Elaborazione"
 
@@ -2601,8 +2633,8 @@ msgstr "La sintassi della query è OK"
 msgid "Query syntax help"
 msgstr "Aiuto per la sintassi delle query"
 
-#: ../sources/mapy73pl.py:36 ../sources/przemienniki_net.py:36
-#: ../sources/przemienniki_eu.py:36
+#: ../sources/przemienniki_eu.py:36 ../sources/przemienniki_net.py:36
+#: ../sources/mapy73pl.py:36
 msgid "Querying"
 msgstr "Interrogazione"
 
@@ -2614,7 +2646,7 @@ msgstr "DTCS RX"
 msgid "Radio"
 msgstr "Radio"
 
-#: ../drivers/ft450d.py:568 ../drivers/ft817.py:406 ../drivers/ft60.py:85
+#: ../drivers/ft60.py:85 ../drivers/ft450d.py:568 ../drivers/ft817.py:406
 #, python-format
 msgid "Radio did not ack block %i"
 msgstr "La radio non ha accettato il blocco %i"
@@ -2774,7 +2806,7 @@ msgstr "Controllo della scansione (salto, inclusione, priorità, ecc.)"
 msgid "Scanlists"
 msgstr "Elenco delle scansioni"
 
-#: ../drivers/uvk5.py:854 ../drivers/ksun_m6.py:418
+#: ../drivers/ksun_m6.py:418 ../drivers/uvk5.py:854
 msgid "Scrambler"
 msgstr "Scrambler"
 
@@ -2819,7 +2851,7 @@ msgstr "Servizio"
 msgid "Settings"
 msgstr "Impostazioni"
 
-#: ../drivers/uvk5.py:2096
+#: ../drivers/uvk5.py:2091
 msgid "Settings are read-only due to unsupported firmware version"
 msgstr "Le impostazioni sono di sola lettura a causa della versione del firmware non supportata"
 
@@ -2827,7 +2859,7 @@ msgstr "Le impostazioni sono di sola lettura a causa della versione del firmware
 msgid "Shift amount (or transmit frequency) controlled by duplex"
 msgstr "Shift (o frequenza di trasmissione) controllato dal duplex"
 
-#: ../wxui/developer.py:100 ../wxui/memedit.py:2269
+#: ../wxui/memedit.py:2269 ../wxui/developer.py:100
 msgid "Show Raw Memory"
 msgstr "Mostra memoria raw"
 
@@ -2889,8 +2921,8 @@ msgstr "Ordina per colonna:"
 msgid "Sort memories"
 msgstr "Ordina memorie"
 
-#: ../sources/mapy73pl.py:64 ../sources/przemienniki_net.py:62
-#: ../sources/przemienniki_eu.py:60
+#: ../sources/przemienniki_eu.py:60 ../sources/przemienniki_net.py:62
+#: ../sources/mapy73pl.py:64
 msgid "Sorting"
 msgstr "Ordinamento"
 
@@ -3011,6 +3043,10 @@ msgstr "Questo driver è in fase di sviluppo e deve essere considerato speriment
 #: ../drivers/uvk5.py:685
 msgid "This image is missing firmware information. It may have been generated with an old or modified version of CHIRP. It is advised that you download a fresh image from your radio and use that going forward for the best safety and compatibility."
 msgstr "Questa immagine manca di informazioni sul firmware. Potrebbe essere stata generata con una versione vecchia o modificata di CHIRP. Si consiglia di scaricare una nuova immagine dalla radio e di utilizzarla in futuro, per garantire la massima sicurezza e compatibilità."
+
+#: ../drivers/uvk5.py:2095
+msgid "This image is read-only due to being from a radio with unsupported firmware"
+msgstr ""
 
 #: ../wxui/main.py:1716
 msgid "This is a live-mode radio, which means changes are sent to the radio in real-time as you make them. Upload is not necessary!"
@@ -3170,8 +3206,8 @@ msgstr "Impossibile importare mentre la visualizzazione è ordinata"
 msgid "Unable to open the clipboard"
 msgstr "Impossibile aprire gli appunti"
 
-#: ../sources/mapy73pl.py:50 ../sources/przemienniki_net.py:48
-#: ../sources/przemienniki_eu.py:46
+#: ../sources/przemienniki_eu.py:46 ../sources/przemienniki_net.py:48
+#: ../sources/mapy73pl.py:50
 msgid "Unable to query"
 msgstr "Impossibile eseguire la ricerca"
 
@@ -3318,7 +3354,7 @@ msgstr "Benvenuto"
 msgid "With this option checked, a proximity search will include cached results from other localities if they are in range, match other filter parameters, and have been downloaded before."
 msgstr "Con questa opzione selezionata, una ricerca di prossimità includerà i risultati memorizzati nella cache di altre località, se presenti nel range, se corrispondono ad altri parametri del filtro e se sono stati scaricati in precedenza."
 
-#: ../wxui/__init__.py:58
+#: ../wxui/__init__.py:59
 msgid "Would you like CHIRP to install a desktop icon for you?"
 msgstr "Vuoi che CHIRP installi un'icona sul desktop?"
 
@@ -3362,45 +3398,3 @@ msgstr "abilitata"
 #, python-brace-format
 msgid "{bank} is full"
 msgstr "{bank} è pieno"
-
-#~ msgid ""
-#~ "Please follow this steps carefully:\n"
-#~ "1 - Turn on your radio\n"
-#~ "2 - Connect the interface cable to your radio\n"
-#~ "3 - Click the button on this window to start download\n"
-#~ "    (you may see another dialog, click ok)\n"
-#~ "4 - Radio will beep and led will flash\n"
-#~ "5 - You will get a 10 seconds timeout to press \"MON\" before\n"
-#~ "    data upload start\n"
-#~ "6 - If all goes right radio will beep at end.\n"
-#~ "After cloning remove the cable and power cycle your radio to\n"
-#~ "get into normal mode.\n"
-#~ msgstr ""
-#~ "Segui attentamente questa procedura:\n"
-#~ "1 - Accendi la radio\n"
-#~ "2 - Connetti il cavo  dell'interfaccia alla radio\n"
-#~ "3 - Fai clic sul pulsante di questa finestra per avviare il download\n"
-#~ "    (potrebbe apparire un'altra finestra di dialogo, fare clic su OK)\n"
-#~ "4 - La radio emetterà un segnale acustico ed il led lampeggerà\n"
-#~ "5 - Verrà visualizzato un timeout di 10 secondi per premere \"MON\" prima\n"
-#~ "    dell'inizio del caricamento dei dati.\n"
-#~ "6 - Se tutto va bene, la radio emetterà un segnale acustico al termine.\n"
-#~ "Dopo la clonazione, rimuovi il cavo e spegni la radio, per\n"
-#~ "passare alla modalità normale.\n"
-
-#~ msgid ""
-#~ "Please follow this steps carefully:\n"
-#~ "1 - Turn on your radio\n"
-#~ "2 - Connect the interface cable to your radio.\n"
-#~ "3 - Click the button on this window to start download\n"
-#~ "    (Radio will beep and led will flash)\n"
-#~ "4 - Then press the \"A\" button in your radio to start cloning.\n"
-#~ "    (At the end radio will beep)\n"
-#~ msgstr ""
-#~ "Segui attentamente questa procedura:\n"
-#~ "1 - Accendi la radio\n"
-#~ "2 - Connetti il cavo  dell'interfaccia alla radio\n"
-#~ "3 - Fai clic sul pulsante di questa finestra per avviare il download\n"
-#~ "    (La radio emetterà un segnale acustico ed il led lampeggerà)\n"
-#~ "4 - Quindi premi il pulsante \"A\" della radio, per avviare la clonazione.\n"
-#~ "    (Al termine, la radio emetterà un segnale acustico)\n"
